@@ -71,12 +71,21 @@ nav {
 }
 
 nav .logo {
+  display: inline-flex;
+  align-items: center;
   font-family: 'Syne', sans-serif;
   font-weight: 800;
   font-size: 1rem;
   letter-spacing: 0.05em;
   color: var(--accent);
   text-decoration: none;
+}
+
+nav .logo img {
+  display: block;
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
 nav ul {
